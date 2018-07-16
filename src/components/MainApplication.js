@@ -6,8 +6,9 @@ const MainApplication = () => {
 
     return (
         <div className = "main-application">
-            <Search />
-
+            <div className = "left-sidebar">
+                <Search />
+            </div>
         </div>
     );
 }
