@@ -1,0 +1,38 @@
+.search-box {
+  margin: 1em;
+  border-radius: 10px; }
+  .search-box .ticker-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
+    .search-box .ticker-search #symbol {
+      padding: 10px;
+      height: 50px;
+      width: 250px;
+      outline: none;
+      border: none;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      color: #7A7D7D;
+      font-size: 18px; }
+      .search-box .ticker-search #symbol::-webkit-input-placeholder {
+        color: #ccc; }
+    .search-box .ticker-search .submit {
+      height: 50px;
+      width: 50px;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      justify-content: center;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      color: white;
+      background-color: #74D3AE;
+      transition: 0.3s; }
+      .search-box .ticker-search .submit:hover {
+        opacity: 0.8; }
