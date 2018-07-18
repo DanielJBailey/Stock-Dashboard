@@ -25,4 +25,4 @@ I am creating this app as a single page application(SPA) using React with a Node
 
 ### Mobile Landing Page Design
 
-![Mobile Views](/src/assets/Landing-mobile.png width="200px")
+<img src ="/src/assets/Landing-mobile.png" width="100">
