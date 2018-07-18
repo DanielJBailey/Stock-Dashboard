@@ -25,5 +25,4 @@ I am creating this app as a single page application(SPA) using React with a Node
 
 ### Mobile Landing Page Design
 
-<img src ="https://gyazo.com/e946b0bb57a7946717effede01f6b799" width="3
-00">
+<img src="https://i.gyazo.com/e946b0bb57a7946717effede01f6b799.png" alt="Image from Gyazo" width="302"/>
