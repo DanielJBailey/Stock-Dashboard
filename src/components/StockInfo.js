@@ -4,10 +4,8 @@ import '../styles/StockInfo.css';
 class StockInfo extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            //what to put here to store data
-        }
     }
+
 
 
     render() {
