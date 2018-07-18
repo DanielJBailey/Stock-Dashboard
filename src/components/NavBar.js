@@ -10,11 +10,6 @@ const NavBar = () => {
             <h1>Wad</h1>
             <p>finding a place to store it.</p>
             </div>
-            
-            <ul>
-                <li>Log In</li>
-                <li>Register</li>
-            </ul>
         </div>
     );
 

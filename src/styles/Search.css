@@ -1,5 +1,6 @@
 .search-component {
-  margin: 10px; }
+  margin: 1em;
+  width: 100%; }
   .search-component .ticker-search {
     display: flex;
     flex-direction: row;
@@ -10,7 +11,6 @@
       padding: 10px;
       height: 50px;
       outline: none;
-      width: 300px;
       border: none;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -35,7 +35,6 @@
       .search-component .ticker-search .submit:hover {
         opacity: 0.8; }
   .search-component .error-message .status {
-    max-width: 300px;
     padding: 10px;
     font-size: 14px;
     color: #FF5E5B; }

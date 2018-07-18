@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/StockInfo.css';
 
 class StockInfo extends Component {
     constructor(props) {
@@ -11,8 +12,11 @@ class StockInfo extends Component {
 
     render() {
         return(
-            <div>
+            <div className = "stock-info">
+
             </div>
         );
     }
 }
+
+export default StockInfo;
