@@ -29,6 +29,10 @@ class Search extends Component {
     render() {
         return(
             <div className = "search-component">
+                <div className = "progress-bar">
+                    <div className = "progress"></div>
+                </div>
+
                 <div className="ticker-search">
                     <form>
                         <input type="text" id="symbol" name="symbol" value={this.state.userInput} placeholder="Ticker..ex: AAPL, TSLA" onChange={this.handleChange.bind(this)}/>
@@ -39,6 +43,7 @@ class Search extends Component {
                     <p className = "status"></p>
                 </div>
             </div>
+            
         );
     }
 
